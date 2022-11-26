@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Jogo from "./components/Jogo"
+import Letras from "./components/Letras"
 import GlobalStyle from "./css/GlobalStyle"
 import palavras from "./palavras"
 
@@ -9,6 +10,7 @@ export default function App() {
       <GlobalStyle />
       <Container>
         <Jogo />
+        <Letras/>
 
       </Container>
     </>
@@ -16,7 +18,5 @@ export default function App() {
 }
 
 const Container = styled.div`
-width: 100%;
-background-color: yellow;
-
+  width: 100%
 `

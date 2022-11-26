@@ -10,7 +10,7 @@ export default function Jogo() {
                 <Botao>Escolher Palavra</Botao>
                 {/* <PalavraJogo/> */}
             </ContainerForca>
-            
+
         </>
     )
 
@@ -18,15 +18,14 @@ export default function Jogo() {
 }
 
 const ContainerForca = styled.div`
-display: flex;
-width: 80%;
-display: flex;
-margin: 0 auto;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
 
 img {
-width: 39%;
-height: 40%;
-margin-top:5%;
+    width: 39%;
+    height: 40%;
+    margin-top:2%;
 }
 `
 
@@ -38,5 +37,11 @@ const Botao = styled.button`
     border: none;
     margin-top: 8%;
     margin-left: 40%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
 
 `
