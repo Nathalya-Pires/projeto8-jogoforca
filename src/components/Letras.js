@@ -1,18 +1,9 @@
 import styled from "styled-components"
 
-/* export default function Letras() {
-
-    const alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-console.log(alfabeto)
-    return (
-        <CaixaDasLetras>
-            {alfabeto.map((l, index) => <Letrinha l={l} key={index} > {l}</Letrinha> )}
-        </CaixaDasLetras>
-    )
-} */
 export default function Letras() {
 
-    const alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+    const alfabeto = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+
 
      return (
         <ContainerLetras>

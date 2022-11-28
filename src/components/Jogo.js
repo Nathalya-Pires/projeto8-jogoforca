@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import forca0 from "../assets/forca0.png"
+import palavras from "../palavras"
 
 export default function Jogo() {
 
@@ -23,8 +24,8 @@ const ContainerForca = styled.div`
     margin: 0 auto;
 
 img {
-    width: 39%;
-    height: 40%;
+    width: 29%;
+    height: 30%;
     margin-top:2%;
 }
 `
