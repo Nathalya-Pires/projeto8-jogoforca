@@ -1,13 +1,13 @@
 import styled from "styled-components"
+import alfabeto from "../alfabeto"
 
-export default function Letras() {
+export default function Letras(props) {
 
-    const alfabeto = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-
-
+    const {letrasClicadas} = props
+    
      return (
         <ContainerLetras>
-            {alfabeto.map((l) => <Letra letra={l} key={l} />)}
+            {alfabeto.map((l) => <Letra disabled={letrasClicadas} letra={l} key={l} />)}
         </ContainerLetras>
 
     )
@@ -24,7 +24,7 @@ function Letra(props) {
 
 }
 
-const ContainerLetras = styled.ul`
+const ContainerLetras = styled.div`
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -32,7 +32,7 @@ const ContainerLetras = styled.ul`
     width: 65%;
 `
 
-const Let = styled.li`
+const Let = styled.button`
     background-color: #FF9DC4;
     width: 4.5%;
     height: 3vw;

@@ -1,11 +1,12 @@
 import styled from "styled-components"
 
-export default function Chute() {
-
+export default function Chute(props) {
+    const {desabilitaInput} = props
+        
     return (
         <ContainerChute>
             <p>Já sei a palavra!</p>
-            <input type="text"/>
+            <input disabled={desabilitaInput} type="text"/>
             <button>Chutar</button>
             </ContainerChute>
     )

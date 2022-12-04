@@ -9,7 +9,7 @@ export default function Jogo() {
             <ContainerForca>
                 <img src={forca0} alt="Imagem da forca" />
                 <Botao>Escolher Palavra</Botao>
-                {/* <PalavraJogo/> */}
+                <h1>_ _ _ _</h1>
             </ContainerForca>
 
         </>
